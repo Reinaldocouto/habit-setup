@@ -2,7 +2,6 @@ const form = document.querySelector("#form-habits")
 const nlwSetup = new NLWSetup(form)
 const button = document.querySelector("header button")
 
-document.body.style.backgroundColor = "rgb(85, 5, 255)"
 button.addEventListener("click", add)
 form.addEventListener("change", save)
 
